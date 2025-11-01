@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Game</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: system-ui, -apple-system, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+        .container { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); max-width: 500px; width: 100%; }
+        h1 { color: #333; margin-bottom: 30px; font-size: 28px; text-align: center; }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 8px; color: #555; font-weight: 500; font-size: 14px; }
+        input, textarea, select { width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 14px; transition: border-color 0.3s; }
+        input:focus, textarea:focus, select:focus { outline: none; border-color: #667eea; }
+        textarea { resize: vertical; min-height: 80px; font-family: inherit; }
+        button { width: 100%; padding: 14px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; transition: transform 0.2s; }
+        button:hover { transform: translateY(-2px); }
+        .success { background: #10b981; color: white; padding: 12px; border-radius: 8px; margin-bottom: 20px; text-align: center; }
+        small { color: #888; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>➕ Add New Item</h1>
+        {% if success %}<div class="success">✓ Item added successfully!</div>{% endif %}
+        <form method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Type *</label>
+                <select name="type" required>
+                    <option value="game">🎮 Game</option>
+                    <option value="movie">🎬 Movie</option>
+                    <option value="tutorial">📚 Tutorial</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Title *</label>
+                <input type="text" name="title" required>
+            </div>
+            <div class="form-group">
+                <label>Description *</label>
+                <textarea name="description" required></textarea>
+            </div>
+            <div class="form-group">
+                <label>Category *</label>
+                <select name="category" required>
+                    <option value="">Select category...</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Hollywood">Hollywood</option>
+                    <option value="Bollywood">Bollywood</option>
+                    <option value="Series">Series</option>
+                    <option value="GTA">GTA</option>
+                    <option value="Racing">Racing</option>
+                    <option value="Fighting">Fighting</option>
+                    <option value="Arcade">Arcade</option>
+                    <option value="LowEnd">Low End PC</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Tags * <small>(comma-separated)</small></label>
+                <input type="text" name="tags" placeholder="e.g., action, multiplayer, fps" required>
+            </div>
+            <div class="form-group">
+                <label>Link *</label>
+                <input type="url" name="link" placeholder="https://example.com/game" required>
+            </div>
+            <div class="form-group">
+                <label>Icon Image <small>(optional)</small></label>
+                <input type="file" name="icon" accept="image/png,image/jpeg,image/jpg,image/gif,image/webp">
+            </div>
+            <div class="form-group">
+                <label style="display: flex; align-items: center; cursor: pointer;">
+                    <input type="checkbox" name="trending" style="width: auto; margin-right: 8px;">
+                    Mark as Trending
+                </label>
+            </div>
+            <button type="submit">Add Item</button>
+        </form>
+    </div>
+</body>
+</html>

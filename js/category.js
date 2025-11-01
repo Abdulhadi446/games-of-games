@@ -23,7 +23,7 @@ function renderItems() {
   const out = els.items;
   const shown = STATE.items.filter(matches);
   if (shown.length === 0) {
-    out.innerHTML = '<p style="color:#9ca3af">No items found.</p>';
+    out.innerHTML = '<div class="empty-state">No items found</div>';
     return;
   }
   out.innerHTML = "";
@@ -80,12 +80,14 @@ async function init(category) {
   els.modalCloseBtn.addEventListener("click", closeModal);
   document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
   
+  els.items.innerHTML = '<div class="loading">Loading</div>';
+  
   try {
     await loadData();
     renderItems();
     $("#year").textContent = new Date().getFullYear();
   } catch (err) {
     console.error("Failed to load data", err);
-    els.items.innerHTML = '<p style="color:#9ca3af">Failed to load data.</p>';
+    els.items.innerHTML = '<div class="empty-state">Failed to load data</div>';
   }
 }

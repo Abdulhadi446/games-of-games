@@ -5,7 +5,11 @@
     "title": "Pathaan",
     "description": "An Indian spy takes on a mercenary who is hell-bent on destroying India.",
     "category": "Bollywood",
-    "tags": ["action","thriller","spy"],
+    "tags": [
+      "action",
+      "thriller",
+      "spy"
+    ],
     "link": "https://example.com/pathaan",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=Pathaan",
     "trending": true
@@ -16,7 +20,10 @@
     "title": "Jawan",
     "description": "A high-octane action thriller which outlines the emotional journey of a man.",
     "category": "Bollywood",
-    "tags": ["action","drama"],
+    "tags": [
+      "action",
+      "drama"
+    ],
     "link": "https://example.com/jawan",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=Jawan",
     "trending": true
@@ -27,7 +34,11 @@
     "title": "Gadar 2",
     "description": "During the Indo-Pakistani War of 1971, Tara Singh returns to Pakistan to bring his son back home.",
     "category": "Hindi",
-    "tags": ["action","drama","patriotic"],
+    "tags": [
+      "action",
+      "drama",
+      "patriotic"
+    ],
     "link": "https://example.com/gadar2",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=Gadar2",
     "trending": true
@@ -38,7 +49,11 @@
     "title": "Avatar: The Way of Water",
     "description": "Jake Sully and Ney'tiri have formed a family and are doing everything to stay together.",
     "category": "Hollywood",
-    "tags": ["sci-fi","adventure","action"],
+    "tags": [
+      "sci-fi",
+      "adventure",
+      "action"
+    ],
     "link": "https://example.com/avatar2",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=Avatar2",
     "trending": true
@@ -49,7 +64,11 @@
     "title": "The Last of Us",
     "description": "After a global pandemic destroys civilization, a hardened survivor takes charge.",
     "category": "Series",
-    "tags": ["drama","thriller","post-apocalyptic"],
+    "tags": [
+      "drama",
+      "thriller",
+      "post-apocalyptic"
+    ],
     "link": "https://example.com/tlou",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=TLOU"
   },
@@ -59,7 +78,11 @@
     "title": "Wednesday",
     "description": "Follows Wednesday Addams' years as a student at Nevermore Academy.",
     "category": "Series",
-    "tags": ["comedy","mystery","fantasy"],
+    "tags": [
+      "comedy",
+      "mystery",
+      "fantasy"
+    ],
     "link": "https://example.com/wednesday",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=Wednesday"
   },
@@ -69,7 +92,11 @@
     "title": "GTA V",
     "description": "Open world action-adventure game set in Los Santos.",
     "category": "GTA",
-    "tags": ["open-world","action","multiplayer"],
+    "tags": [
+      "open-world",
+      "action",
+      "multiplayer"
+    ],
     "link": "https://example.com/gtav",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=GTAV"
   },
@@ -79,7 +106,11 @@
     "title": "GTA San Andreas",
     "description": "Classic open world game set in the state of San Andreas.",
     "category": "GTA",
-    "tags": ["open-world","action","classic"],
+    "tags": [
+      "open-world",
+      "action",
+      "classic"
+    ],
     "link": "https://example.com/gtasa",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=GTASA"
   },
@@ -89,7 +120,11 @@
     "title": "Need for Speed Most Wanted",
     "description": "Street racing game with intense police chases.",
     "category": "Racing",
-    "tags": ["racing","cars","action"],
+    "tags": [
+      "racing",
+      "cars",
+      "action"
+    ],
     "link": "https://example.com/nfsmw",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=NFSMW"
   },
@@ -99,7 +134,11 @@
     "title": "Asphalt 9",
     "description": "Arcade racing game with stunning graphics and fast-paced action.",
     "category": "Racing",
-    "tags": ["racing","arcade","multiplayer"],
+    "tags": [
+      "racing",
+      "arcade",
+      "multiplayer"
+    ],
     "link": "https://example.com/asphalt9",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=A9"
   },
@@ -109,7 +148,11 @@
     "title": "Tekken 7",
     "description": "Fighting game with epic battles and legendary characters.",
     "category": "Fighting",
-    "tags": ["fighting","multiplayer","competitive"],
+    "tags": [
+      "fighting",
+      "multiplayer",
+      "competitive"
+    ],
     "link": "https://example.com/tekken7",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=T7"
   },
@@ -119,7 +162,11 @@
     "title": "Street Fighter V",
     "description": "Classic fighting game with iconic characters and combos.",
     "category": "Fighting",
-    "tags": ["fighting","competitive","classic"],
+    "tags": [
+      "fighting",
+      "competitive",
+      "classic"
+    ],
     "link": "https://example.com/sfv",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=SFV"
   },
@@ -129,7 +176,11 @@
     "title": "Pac-Man Championship Edition",
     "description": "Modern take on the classic arcade game.",
     "category": "Arcade",
-    "tags": ["arcade","classic","casual"],
+    "tags": [
+      "arcade",
+      "classic",
+      "casual"
+    ],
     "link": "https://example.com/pacman",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=PacMan"
   },
@@ -139,7 +190,11 @@
     "title": "Cuphead",
     "description": "Run and gun action game with hand-drawn animation.",
     "category": "Arcade",
-    "tags": ["arcade","platformer","indie"],
+    "tags": [
+      "arcade",
+      "platformer",
+      "indie"
+    ],
     "link": "https://example.com/cuphead",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=Cuphead"
   },
@@ -149,7 +204,11 @@
     "title": "Stardew Valley",
     "description": "Farming simulation RPG for low-end PCs.",
     "category": "LowEnd",
-    "tags": ["simulation","rpg","indie"],
+    "tags": [
+      "simulation",
+      "rpg",
+      "indie"
+    ],
     "link": "https://example.com/stardew",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=Stardew"
   },
@@ -159,8 +218,42 @@
     "title": "Terraria",
     "description": "2D sandbox adventure game that runs on any PC.",
     "category": "LowEnd",
-    "tags": ["sandbox","adventure","indie"],
+    "tags": [
+      "sandbox",
+      "adventure",
+      "indie"
+    ],
     "link": "https://example.com/terraria",
     "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=Terraria"
+  },
+  {
+    "id": 17,
+    "type": "game",
+    "title": "Mnecraft",
+    "description": "Minecraft is a good game.",
+    "category": "Action",
+    "tags": [
+      "action",
+      "multiplayer",
+      "fps"
+    ],
+    "link": "https://www.minecraft.net/en-us",
+    "icon": "https://image.api.playstation.com/vulcan/img/cfn/11307x4B5WLoVoIUtdewG4uJ_YuDRTwBxQy0qP8ylgazLLc01PBxbsFG1pGOWmqhZsxnNkrU3GXbdXIowBAstzlrhtQ4LCI4.png",
+    "trending": true
+  },
+  {
+    "id": 18,
+    "type": "game",
+    "title": "FreeFire",
+    "description": "Free to fire",
+    "category": "LowEnd",
+    "tags": [
+      "action",
+      "multiplayer",
+      "fps"
+    ],
+    "link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dcom.dts.freefireth%26hl%3Den&ved=2ahUKEwj5wP_iutGQAxUjIRAIHUlIK_oQFnoECC4QAQ&usg=AOvVaw1GpLBwejjm7NdSp1gid51I",
+    "icon": "data/icons/18_Now.gg-FreeFire-Play-Free-Fire-Online-On-Browser-For-Free-1.png",
+    "trending": true
   }
 ]
