@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tutorials — PlayList</title>
+    <meta name="description" content="Learn with step-by-step tutorials covering development and design." />
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">PlayList</a>
+        <nav class="main-nav">
+          <a href="games.html" class="nav-link">Games</a>
+          <a href="movies.html" class="nav-link">Movies</a>
+          <a href="tutorials.html" class="nav-link active">Tutorials</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="controls">
+        <div class="search-wrap">
+          <input id="search" type="search" placeholder="Search tutorials..." aria-label="Search tutorials">
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <aside class="sidebar">
+          <h3>Categories</h3>
+          <div id="categories" class="categories"></div>
+        </aside>
+
+        <section class="list-area">
+          <div id="items" class="items-grid" aria-live="polite"></div>
+        </section>
+      </section>
+    </main>
+
+    <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-backdrop" id="modalClose"></div>
+      <div class="modal-panel" role="dialog" aria-modal="true">
+        <button id="modalCloseBtn" class="modal-close" aria-label="Close">×</button>
+        <div id="modalContent"></div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© <span id="year"></span> PlayList — Static listing for games, movies & tutorials</small>
+      </div>
+    </footer>
+
+    <script src="js/tutorials.js" defer></script>
+  </body>
+</html>
