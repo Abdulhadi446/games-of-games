@@ -1,248 +1,6 @@
 [
   {
     "id": 1,
-    "type": "movie",
-    "title": "Pathaan",
-    "description": "An Indian spy takes on a mercenary who is hell-bent on destroying India.",
-    "category": "Bollywood",
-    "tags": [
-      "action",
-      "thriller",
-      "spy"
-    ],
-    "link": "https://example.com/pathaan",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=Pathaan",
-    "trending": true
-  },
-  {
-    "id": 2,
-    "type": "movie",
-    "title": "Jawan",
-    "description": "A high-octane action thriller which outlines the emotional journey of a man.",
-    "category": "Bollywood",
-    "tags": [
-      "action",
-      "drama"
-    ],
-    "link": "https://example.com/jawan",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=Jawan",
-    "trending": true
-  },
-  {
-    "id": 3,
-    "type": "movie",
-    "title": "Gadar 2",
-    "description": "During the Indo-Pakistani War of 1971, Tara Singh returns to Pakistan to bring his son back home.",
-    "category": "Hindi",
-    "tags": [
-      "action",
-      "drama",
-      "patriotic"
-    ],
-    "link": "https://example.com/gadar2",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=Gadar2",
-    "trending": true
-  },
-  {
-    "id": 4,
-    "type": "movie",
-    "title": "Avatar: The Way of Water",
-    "description": "Jake Sully and Ney'tiri have formed a family and are doing everything to stay together.",
-    "category": "Hollywood",
-    "tags": [
-      "sci-fi",
-      "adventure",
-      "action"
-    ],
-    "link": "https://example.com/avatar2",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=Avatar2",
-    "trending": true
-  },
-  {
-    "id": 5,
-    "type": "movie",
-    "title": "The Last of Us",
-    "description": "After a global pandemic destroys civilization, a hardened survivor takes charge.",
-    "category": "Series",
-    "tags": [
-      "drama",
-      "thriller",
-      "post-apocalyptic"
-    ],
-    "link": "https://example.com/tlou",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=TLOU"
-  },
-  {
-    "id": 6,
-    "type": "movie",
-    "title": "Wednesday",
-    "description": "Follows Wednesday Addams' years as a student at Nevermore Academy.",
-    "category": "Series",
-    "tags": [
-      "comedy",
-      "mystery",
-      "fantasy"
-    ],
-    "link": "https://example.com/wednesday",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=Wednesday"
-  },
-  {
-    "id": 7,
-    "type": "game",
-    "title": "GTA V",
-    "description": "Open world action-adventure game set in Los Santos.",
-    "category": "GTA",
-    "tags": [
-      "open-world",
-      "action",
-      "multiplayer"
-    ],
-    "link": "https://example.com/gtav",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=GTAV"
-  },
-  {
-    "id": 8,
-    "type": "game",
-    "title": "GTA San Andreas",
-    "description": "Classic open world game set in the state of San Andreas.",
-    "category": "GTA",
-    "tags": [
-      "open-world",
-      "action",
-      "classic"
-    ],
-    "link": "https://example.com/gtasa",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=GTASA"
-  },
-  {
-    "id": 9,
-    "type": "game",
-    "title": "Need for Speed Most Wanted",
-    "description": "Street racing game with intense police chases.",
-    "category": "Racing",
-    "tags": [
-      "racing",
-      "cars",
-      "action"
-    ],
-    "link": "https://example.com/nfsmw",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=NFSMW"
-  },
-  {
-    "id": 10,
-    "type": "game",
-    "title": "Asphalt 9",
-    "description": "Arcade racing game with stunning graphics and fast-paced action.",
-    "category": "Racing",
-    "tags": [
-      "racing",
-      "arcade",
-      "multiplayer"
-    ],
-    "link": "https://example.com/asphalt9",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=A9"
-  },
-  {
-    "id": 11,
-    "type": "game",
-    "title": "Tekken 7",
-    "description": "Fighting game with epic battles and legendary characters.",
-    "category": "Fighting",
-    "tags": [
-      "fighting",
-      "multiplayer",
-      "competitive"
-    ],
-    "link": "https://example.com/tekken7",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=T7"
-  },
-  {
-    "id": 12,
-    "type": "game",
-    "title": "Street Fighter V",
-    "description": "Classic fighting game with iconic characters and combos.",
-    "category": "Fighting",
-    "tags": [
-      "fighting",
-      "competitive",
-      "classic"
-    ],
-    "link": "https://example.com/sfv",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=SFV"
-  },
-  {
-    "id": 13,
-    "type": "game",
-    "title": "Pac-Man Championship Edition",
-    "description": "Modern take on the classic arcade game.",
-    "category": "Arcade",
-    "tags": [
-      "arcade",
-      "classic",
-      "casual"
-    ],
-    "link": "https://example.com/pacman",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=PacMan"
-  },
-  {
-    "id": 14,
-    "type": "game",
-    "title": "Cuphead",
-    "description": "Run and gun action game with hand-drawn animation.",
-    "category": "Arcade",
-    "tags": [
-      "arcade",
-      "platformer",
-      "indie"
-    ],
-    "link": "https://example.com/cuphead",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=Cuphead"
-  },
-  {
-    "id": 15,
-    "type": "game",
-    "title": "Stardew Valley",
-    "description": "Farming simulation RPG for low-end PCs.",
-    "category": "LowEnd",
-    "tags": [
-      "simulation",
-      "rpg",
-      "indie"
-    ],
-    "link": "https://example.com/stardew",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/7dd3fc?text=Stardew"
-  },
-  {
-    "id": 16,
-    "type": "game",
-    "title": "Terraria",
-    "description": "2D sandbox adventure game that runs on any PC.",
-    "category": "LowEnd",
-    "tags": [
-      "sandbox",
-      "adventure",
-      "indie"
-    ],
-    "link": "https://example.com/terraria",
-    "icon": "https://via.placeholder.com/200x300/1a1a1a/60a5fa?text=Terraria"
-  },
-  {
-    "id": 17,
-    "type": "game",
-    "title": "Mnecraft",
-    "description": "Minecraft is a good game.",
-    "category": "Action",
-    "tags": [
-      "action",
-      "multiplayer",
-      "fps"
-    ],
-    "link": "https://www.minecraft.net/en-us",
-    "icon": "https://image.api.playstation.com/vulcan/img/cfn/11307x4B5WLoVoIUtdewG4uJ_YuDRTwBxQy0qP8ylgazLLc01PBxbsFG1pGOWmqhZsxnNkrU3GXbdXIowBAstzlrhtQ4LCI4.png",
-    "trending": true
-  },
-  {
-    "id": 18,
     "type": "game",
     "title": "FreeFire",
     "description": "Free to fire",
@@ -257,24 +15,10 @@
     "trending": true
   },
   {
-    "id": 19,
+    "id": 2,
     "type": "tool",
-    "title": "Sodeom",
-    "description": "The sodeom search engine",
-    "category": "Tool",
-    "tags": [
-      "sodeom",
-      "search"
-    ],
-    "link": "https://sodeom.com/",
-    "icon": "data/icons/19_Untitled.png",
-    "trending": true
-  },
-  {
-    "id": 20,
-    "type": "tool",
-    "title": "Free Fire PC Panel \ud83c\udfaf",
-    "description": "Welcome To Free Fire Cheats \ud83c\udf97\ufe0f\r\n\r\nHere I will give you antiban , antiblacklist PC panel fully safe if you want to buy a user pass then com on my WhatsApp number UID Bypass Also Available +9203492276634 \u2705  FIle Passeord: 1",
+    "title": "Free Fire PC Panel 🎯",
+    "description": "Welcome To Free Fire Cheats 🎗️\r\n\r\nHere I will give you antiban , antiblacklist PC panel fully safe if you want to buy a user pass then com on my WhatsApp number UID Bypass Also Available +9203492276634 ✅  FIle Passeord: 1",
     "category": "Tool",
     "tags": [
       "freefire",
@@ -287,10 +31,10 @@
     "icon": "data/icons/20_WhatsApp_Image_2025-11-02_at_2.31.19_PM.jpeg"
   },
   {
-    "id": 21,
+    "id": 3,
     "type": "tool",
-    "title": "UID BYPASS \ud83c\udfaf",
-    "description": "Welcome To Free Fire Cheats \ud83c\udf97\ufe0f\r\n\r\nHere I will give you antiban , antiblacklist UID Bypass that's apply on emulator not on free fire fully safe if you want to buy a user pass then com on my WhatsApp number  +9203492276634 \u2705\r\n\r\nRegards :- AMAN MUGHAL \ud83e\udd0d",
+    "title": "UID BYPASS 🎯",
+    "description": "Welcome To Free Fire Cheats 🎗️\r\n\r\nHere I will give you antiban , antiblacklist UID Bypass that's apply on emulator not on free fire fully safe if you want to buy a user pass then com on my WhatsApp number  +9203492276634 ✅\r\n\r\nRegards :- AMAN MUGHAL 🤍",
     "category": "Tool",
     "tags": [
       "freefire",
@@ -303,7 +47,7 @@
     "icon": "data/icons/21_WhatsApp_Image_2025-11-02_at_2.58.50_PM.jpeg"
   },
   {
-    "id": 22,
+    "id": 4,
     "type": "movie",
     "title": "Download Bahubali: The Epic (2025) Hindi HDTC 1080p 720p & 480p x264 (LiNE) | [Drama] Full Movie.",
     "description": "Bahubali: The Epic (Full Movie)\r\niMDB Rating: 8.7/10\r\nGenre: Action | Drama\r\nStars: Prabhas, Rana Daggubati, Anushka Shetty\r\nDirector: S. S. Rajamouli\r\nLanguage: Hindi (LiNE) \r\nQuality: HDTC 1080p | 720p | 480p\r\n",
@@ -320,7 +64,7 @@
     "icon": "data/icons/22_z9YIo2qscyaXYgRqIdRJtND3bw8.jpg"
   },
   {
-    "id": 23,
+    "id": 5,
     "type": "movie",
     "title": "Baaghi 4 (Full Movie)",
     "description": "iMDB Rating: x/10\r\nGenre: Action | Drama | Thriller\r\nStars: Sonam Bajwa, Tiger Shroff, Sanjay Dutt\r\nDirector: Harsha\r\nLanguage: Hindi DD5.1 / ESubs\r\nQuality: WEB-DL 4K | 1080p | 720p | 480p",
@@ -339,7 +83,7 @@
     "trending": true
   },
   {
-    "id": 24,
+    "id": 6,
     "type": "movie",
     "title": "Download Deva (2025) Hindi WEB-DL 2160p 1080p 720p & 480p [x264/HEVC] DD5.1 | [Drama] Full Movie.",
     "description": "Deva (Full Movie)\r\niMDB Rating: 7.9/10\r\nGenre: Action | Thriller | Crime\r\nStars: Shahid Kapoor, Pooja Hegde, Kubbra Sait\r\nDirector: Rosshan Andrrews\r\nLanguage: Hindi DD5.1 / ESubs\r\nQuality: WEB-DL 4K | 1080p | 720p | 480p\r\n",
@@ -353,6 +97,21 @@
     ],
     "link": "https://tpi.li/DEVA2",
     "icon": "data/icons/24_8KGVSYfwLQMdAUgtuiXMl7ohg1a.jpg",
+    "trending": true
+  },
+  {
+    "id": 7,
+    "type": "movie",
+    "title": "Download Bloody Daddy 2023 Hindi WEB-DL 1080p 720p & 480p x264 DD5.1 | [Action] Full Movie.",
+    "description": "Bloody Daddy (Full Movie)\r\niMDB Rating: 7.3/10\r\nGenres: Action | Crime | Thriller\r\nStars: Shahid Kapoor, Amy Aela, Ankur Bhatia\r\nDirector: Ali Abbas Zafar\r\nLanguage: Hindi (ORG 5.1) / ESubs\r\nQuality: WEB-DL 1080p | 720p | 480p",
+    "category": "Bollywood",
+    "tags": [
+      "Bloody Daddy (Full Movie) iMDB Rating: 7.3/10 Genres: Action | Crime | Thriller Stars: Shahid Kapoor",
+      "Amy Aela",
+      "Ankur Bhatia Director: Ali Abbas Zafar Language: Hindi (ORG 5.1) / ESubs Quality: WEB-DL 1080p | 720p | 480p"
+    ],
+    "link": "https://tpi.li/BLOODYDADDY1080P",
+    "icon": "data/icons/25_Bloody-Daddy-2023-Hindi-HDRip-Full-Movie-HDHub4u.jpg",
     "trending": true
   }
 ]
