@@ -3,5 +3,4 @@ __pycache__/
 *.pyo
 .env
 *.log
-data/icons/*
 !data/icons/.gitkeep
