@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Download Bollywood Movies Free - StreamPlay.xyz</title>
-<meta name="description" content="Download latest Bollywood movies free. Hindi Bollywood films in HD."/>
-<meta name="keywords" content="bollywood movies download, bollywood films, hindi movies"/>
-<link rel="canonical" href="https://streamplay.xyz/bollywood.html"/>
+<title>Hindi Dubbed Movies - StreamPlay.xyz</title>
+<meta name="description" content="Download Hindi dubbed movies free."/>
+<meta name="keywords" content="hindi dubbed movies, dubbed movies download"/>
+<link rel="canonical" href="https://streamplay.xyz/hindidubbed.html"/>
 <meta name="robots" content="index, follow"/>
 <meta name="google-adsense-account" content="ca-pub-1414579516523448">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1414579516523448" crossorigin="anonymous"></script>
@@ -19,10 +19,10 @@
 <nav class="top-nav">
 <a href="index.html">Home</a>
 <a href="hindi.html">Hindi</a>
-<a href="hindidubbed.html">Hindi Dubbed</a>
+<a href="hindidubbed.html" class="active">Hindi Dubbed</a>
 <a href="southhindi.html">South Hindi</a>
 <a href="hollywood.html">Hollywood</a>
-<a href="bollywood.html" class="active">Bollywood</a>
+<a href="bollywood.html">Bollywood</a>
 <a href="series.html">Series</a>
 <a href="games.html">Games</a>
 <a href="tool.html">Tool</a>
@@ -34,8 +34,8 @@
 <div class="container">
 <div class="content-wrapper">
 <div class="main-content">
-<h2>Bollywood Movies</h2>
-<div class="search-wrap"><input id="search" type="search" placeholder="Search Bollywood movies..."></div>
+<h2>Hindi Dubbed Movies</h2>
+<div class="search-wrap"><input id="search" type="search" placeholder="Search movies..."></div>
 <div id="items" class="items-grid"></div>
 <section class="ad-section">
 <div class="ad-placeholder">Advertisement Space - 728x90</div>
@@ -46,10 +46,10 @@
 <nav class="side-nav">
 <a href="index.html">Home</a>
 <a href="hindi.html">Hindi</a>
-<a href="hindidubbed.html">Hindi Dubbed</a>
+<a href="hindidubbed.html" class="active">Hindi Dubbed</a>
 <a href="southhindi.html">South Hindi</a>
 <a href="hollywood.html">Hollywood</a>
-<a href="bollywood.html" class="active">Bollywood</a>
+<a href="bollywood.html">Bollywood</a>
 <a href="series.html">Series</a>
 <a href="games.html">Games</a>
 <a href="tool.html">Tool</a>
@@ -67,7 +67,15 @@
 <div class="modal-panel"><button id="modalCloseBtn" class="modal-close">×</button><div id="modalContent"></div></div>
 </div>
 <footer class="site-footer"><div class="container"><small>© <span id="year"></span> StreamPlay.xyz</small></div></footer>
-<script src="js/category.js"></script>
-<script>document.addEventListener("DOMContentLoaded", () => init("Bollywood"));</script>
+<script src="js/home.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const res = await fetch("data/items.json");
+  const data = await res.json();
+  STATE.items = data.filter(i => i.category === 'HindiDubbed');
+  renderItems();
+  $("#year").textContent = new Date().getFullYear();
+});
+</script>
 </body>
 </html>
