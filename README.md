@@ -1,5 +1,5 @@
 # PlayList — Static directory for Games, Movies & Tutorials
-
+### [Donate](https://ko-fi.com/sodeom)
 This is a lightweight, production-ready static website you can deploy to Netlify. It lists games, movies and tutorials with categories, search, and a detail modal.
 
 What is included
